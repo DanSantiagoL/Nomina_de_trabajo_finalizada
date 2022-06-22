@@ -95,8 +95,6 @@ namespace Nomina_de_trabajo_finalizada
                 Console.WriteLine("Insert Worked days in the month: ");
                 data.WorkedDays = PedirDecimal();
                
-                Console.Clear();
-
             } while (data.WorkedDays <= 0 || data.WorkedDays > 30);
 
             return data;
