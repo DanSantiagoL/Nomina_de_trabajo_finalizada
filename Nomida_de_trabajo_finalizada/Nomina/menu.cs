@@ -96,6 +96,8 @@ namespace Nomina_de_trabajo_finalizada
                 data.WorkedDays = PedirDecimal();
                
             } while (data.WorkedDays <= 0 || data.WorkedDays > 30);
+            
+             Console.Clear();
 
             return data;
         }
